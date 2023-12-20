@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.navbar {
+    width: 1440px;
+    display: flex;
+}
+.dropdown {
+    margin-top: 52px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar a {
+    opacity: 0.7;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 40px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  } 
+  .Login {
+    margin-left: 550px;
+
+  }
+  .feature {
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  .company {
+    cursor: pointer;
+  }
+  #snap {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .register {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 60px;
+    height: 10px;
+    padding-bottom: 15px;
+  }
+  #main-header {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  #main-para {
+    margin-left: 150px;
+  }
+  #main-link {
+    margin-left: 150px;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  #main-link:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  img {
+  
+    margin-left: 50%;
+    margin-top: -200px;
+  }
+  .icon-container {
+    margin-top: -40px;
+    margin-left: 150px;
+    opacity: 0.7;
+  }
+  .icon-container .fa {
+    margin: 20px;
+  }
+
+ .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media screen and (max-width: 675px) {
+    .navbar a {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+}
+  }
